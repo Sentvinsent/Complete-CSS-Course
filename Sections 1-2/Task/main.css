@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+.styled-code {
+  color: chocolate;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: aqua;
+}
+
+li {
+  font-family: inherit;
+}
+
+/* li ~ li {
+  color: white;
+  background: black;
+} */
+
+ol li {
+  color: white;
+  background: black;
+}
