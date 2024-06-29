@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: aqua;
+  margin: 0;
+}
+
+#product-overview h1 {
+  color: red;
+  font-family: sans-serif;
+}
+#product-overview {
+  background: url("freedom.jpg");
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+}
+
+.section-title {
+  color: green;
+  font-family: inherit;
+}
+
+h1 {
+  color: blue;
+}
+
+.main-header {
+  padding: 2% 1%;
+  width: 100%;
+  background: aqua;
+}
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 100px);
+  vertical-align: middle;
+}
+
+.main-nav___items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav___item {
+  display: inline-block;
+  margin: 0 5px;
+}
+.main-nav___item > a {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.main-nav___item > a:hover,
+.main-nav___item > a:active {
+  color: aliceblue;
+  border-bottom: 3px solid aliceblue;
+}
+
+.main-nav___item--cta a {
+  color: aliceblue;
+  background: rebeccapurple;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.main-nav___item--cta a:hover,
+.main-nav___item--cta a:active {
+  color: rebeccapurple;
+  background: aliceblue;
+  border: none;
+}
