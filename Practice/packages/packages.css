@@ -1,12 +1,12 @@
 main {
-  padding-top: 36px;
+  padding-top: 2rem;
 }
 
 .background {
   background: url("../images/plans-background.jpg") center/cover;
   filter: grayscale(40%);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   z-index: -2;
 }
@@ -16,8 +16,8 @@ main {
   width: 80%;
   border: solid black 4px;
   border-left: none;
-  padding: 16px 8px;
-  margin: 8px 0;
+  padding: 1rem 0.5rem;
+  margin: 1rem 0;
   position: relative;
   z-index: -1;
 }
@@ -40,11 +40,11 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 20px;
-  font-size: 12px;
+  margin: 1.25rem;
+  font-size: 0.75rem;
   color: aliceblue;
   background-color: #ff5454;
-  padding: 8px;
+  padding: 0.5rem;
   z-index: 10;
 }
 
@@ -55,13 +55,13 @@ main {
 .plan-section__description {
   color: black;
   background: white;
-  padding: 8px;
-  border: black solid 2px;
+  padding: 0.5rem;
+  border: black solid 1px;
 }
 
 .plan--free {
   background: rgba(214, 254, 214, 0.95);
-  border: solid black 4px;
+  border: solid black 2px;
   border-right: none;
   float: right;
 }
