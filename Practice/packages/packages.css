@@ -16,10 +16,8 @@ main {
   width: 80%;
   border: solid black 4px;
   border-left: none;
-  padding: 1rem 0.5rem;
   margin: 1rem 0;
   position: relative;
-  z-index: -1;
 }
 .plan-section:hover,
 .plan-section:active {
@@ -28,11 +26,14 @@ main {
 }
 .plan-section a {
   text-decoration: none;
+  display: block;
   color: black;
+  padding: 2rem;
 }
 
 .plan-section__title {
   text-decoration: none;
+  display: block;
   color: black;
 }
 
@@ -40,12 +41,11 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 1.25rem;
-  font-size: 0.75rem;
+  margin: 1.2rem;
+  font-size: 0.8rem;
   color: aliceblue;
   background-color: #ff5454;
   padding: 0.5rem;
-  z-index: 10;
 }
 
 .plan-section__subtitle {
@@ -61,7 +61,7 @@ main {
 
 .plan--free {
   background: rgba(214, 254, 214, 0.95);
-  border: solid black 2px;
+  border: solid black 4px;
   border-right: none;
   float: right;
 }
@@ -74,4 +74,19 @@ main {
 .plan--premium h1,
 .plan--premium h2 {
   color: aliceblue;
+}
+
+@media (min-width: 40rem) {
+  main {
+    max-width: 94rem;
+  }
+}
+
+@media (min-width: 94rem) {
+  .plan-section {
+    border-left: solid black 4px;
+  }
+  .plan--free {
+    border-right: solid black 4px;
+  }
 }
