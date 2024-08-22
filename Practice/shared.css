@@ -205,6 +205,14 @@ main {
   color: #0e4f1f;
 }
 
+.button:disabled {
+  outline: none;
+  cursor: not-allowed;
+  background-color: #ccc;
+  color: #a1a1a1;
+  border: #a1a1a1;
+}
+
 .button:focus {
   outline: none;
 }
