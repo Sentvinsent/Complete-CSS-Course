@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "AnonymousPro";
+  src: url(AnonymousPro-Regular.ttf) format("truetype");
+}
+
 main {
   padding-top: 2rem;
 }
@@ -57,6 +62,8 @@ main {
   background: white;
   padding: 0.5rem;
   border: black solid 1px;
+  font-size: 1.2rem;
+  /*shorthand font- style, variant, weight, size/line-height, family */
 }
 
 .plan--free {
