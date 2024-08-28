@@ -1,7 +1,6 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("images/freedom.jpg") center/cover no-repeat border-box,
-    #ff1b68;
+    url("images/freedom.jpg") center/cover no-repeat border-box, #ff1b68;
   /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; */
@@ -89,7 +88,7 @@
 }
 
 @media (min-width: 40rem) {
-  .plan__list { 
+  .plan__list {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -166,7 +165,9 @@
 
 .modal {
   position: fixed;
-  display: none;
+  opacity: 0;
+  transform: translateY(-3rem);
+  transition: opacity 200ms ease-out 0.2s, transform 0.5s ease-out;
   z-index: 200;
   top: 20%;
   left: 30%;
