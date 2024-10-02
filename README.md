@@ -1,5 +1,6 @@
-
 # CSS - The Complete Guide (incl. Flexbox, Grid & Sass) Course
+
+[Course content](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
 
 As a developer with a passion for creating visually appealing and responsive web designs, I continuously seek to enhance my skills and stay updated with the latest technologies. To cover any gaps in my knowledge and gain more practical experience, I've completed the “CSS - The Complete Guide (incl. Flexbox, Grid & Sass)” course on Udemy.
 
